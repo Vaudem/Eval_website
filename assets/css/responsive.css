@@ -1,0 +1,121 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+section.carrousel{
+	background: black;
+	height: auto;
+	width: 100%;
+	margin-top: 110px;
+}
+
+
+
+.black{
+	background: rgba(0,0,0,0.5);
+	border-radius: 10px;
+
+}
+
+
+
+
+header{
+	width: 100%;
+	height: 110px;
+	background: black;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 2000;
+}
+
+
+figure.logo{
+	width: 350px;
+	height: 100px;
+}
+
+
+.navbar-light .navbar-nav .nav-link{
+	color: white;
+}
+
+
+
+.navbar-light .navbar-nav .nav-link:hover{
+	color: purple;
+}
+
+
+
+
+
+.navbar-light .navbar-nav .active>.nav-link, 
+.navbar-light .navbar-nav .nav-link.active, 
+.navbar-light .navbar-nav .nav-link.show, 
+.navbar-light .navbar-nav .show>.nav-link {
+	color: coral;
+}
+
+
+.navbar{
+	position: absolute;
+	right: 0;
+	top: 30px;
+	height: auto;
+}
+
+
+
+hr{
+	width: 100%;
+	border: 1px solid white;
+	margin-bottom: 5px;
+	margin-top: 0  /* !important;   !important pour qu'il passe devant Boostraps */;
+}
+
+
+main{
+	height: auto; 
+	background: grey;
+}
+
+
+.centre{
+	background:red;
+	height: 100vh;
+}
+
+
+
+article.chiffre{
+	width: 33.33%;
+	height: 170px;
+	border: 1px solid white;
+	padding-top: 30px;
+	background: black;
+}
+
+
+
+article.chiffre > h4, p {
+	color: white;
+	text-align: center;
+}
+
+h4{
+	font-weight: 700;
+	font-size: 60px;
+}
+
+
+hgroup{
+	text-align: center;
+}
+
+
+
